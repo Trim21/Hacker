@@ -1,2 +1,6 @@
+menu:
+  Home: /
+  Archives: /archives
+
 utterances: true
 utterances_repo: trim21/blog
