@@ -14,6 +14,7 @@
 			id: location.pathname,
 			distractionFreeMode: false
 		})
+
 		gitalk.render('gitalk-container')
 	</script>
 <% } %>
@@ -53,9 +54,9 @@
 <% } %>
 <% if (theme.disqus){ %>
 	<section id="comment" class="comment">
-		<div id="disqus_thread">
-			<noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-		</div>
+	  <div id="disqus_thread">
+	  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	  </div>
 	</section>
 	<script type="text/javascript">
 		var disqus_shortname = '<%= theme.disqus_shortname %>';
